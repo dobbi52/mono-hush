@@ -30,6 +30,8 @@
 
 깨면 다음 방이 열려요. 진행 상황은 `localStorage`(`mono-hush-unlocked`, `mono-hush-clear5`)에 저장돼요.
 
+구글 로그인을 하면 진행 상황이 Firebase Realtime Database `monohush/{uid}`(`quidditch-a8936` 프로젝트)에도 저장돼요. 게임 모음과 로그인을 공유하고, 기기 간 기록은 충돌 선택 없이 더 앞선 쪽으로 합쳐요.
+
 ## 조작
 
 | | 휴대폰 | 컴퓨터 |
